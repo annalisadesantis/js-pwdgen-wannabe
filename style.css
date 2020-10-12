@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+
+/* Intestazione */
+
+header {
+    background-color: #b0c4de;
+    min-height: 80px;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+/* Parte centrale */
+
+main {
+    height: calc(100vh - 80px - 80px);
+    background-color: #92a1cf;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .container{
+    background-color: #21abcd;
+    min-height: 40%;
+    min-width: 80%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+main h2{
+    color: #1560bd;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+main h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #b0c4de;
+    height: 80px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
